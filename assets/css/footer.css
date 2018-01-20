@@ -1,0 +1,22 @@
+.container-custom {
+  padding-right: 0px  !important;
+  padding-left: 0px  !important;
+}
+
+@media (min-width: 768px) {
+  .breakPoint {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .breakPoint {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .breakPoint {
+    width: 1170px;
+  }
+}
