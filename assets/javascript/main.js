@@ -28,6 +28,12 @@ $(function() {
 
      }
  });
+ $(function() {
+     	$('img').on('click', function() {
+ 			$('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+ 			$('#enlargeImageModal').modal('show');
+ 		});
+ });
 
  if ($(".filter-button").removeClass("active")) {
 $(this).removeClass("active");
